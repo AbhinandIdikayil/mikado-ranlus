@@ -87,6 +87,7 @@ window.addEventListener('DOMContentLoaded', () => {
                 opacity: 0,
                 duration: 1,
                 ease: 'power2.inOut',
+                onComplete:() => img.remove()
             },
                 '-=0.5'
             )
